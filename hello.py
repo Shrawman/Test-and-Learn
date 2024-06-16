@@ -1,4 +1,4 @@
-friends = ['joya','nayon','sadia','mithi','anik']
+friends = ['joya','nayon','sadia','mithi','anik','ashraful']
 p = input('Enter a name: ')
 flag = False
 for friend in friends:
