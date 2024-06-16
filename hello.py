@@ -12,6 +12,7 @@ for friend in friends:
         break
 
 if (flag == False):
+    print('You better play sports to find friends')
     sports= ["football","cricket","hockey","basketball"]
     for i in sports:
         print(i)
