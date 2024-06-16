@@ -8,4 +8,6 @@ for friend in friends:
         break
 
 if (flag == False):
-    print('Friend is not found')
+    sports= ["football","cricket","hockey","basketball"]
+    for i in sports:
+        print(i)
