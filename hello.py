@@ -1,4 +1,8 @@
 friends = ['joya','nayon','sadia','mithi','anik','ashraful']
+family = ['charu','santosh','peeu']
+
+print("Family always comes first")
+
 p = input('Enter a name: ')
 flag = False
 for friend in friends:
