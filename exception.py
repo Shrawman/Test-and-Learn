@@ -6,6 +6,9 @@ class Accident(Exception):
         print("User defined excption", self.msg)
 
 try:
+    x = 1/0
     raise Accident('Crash between two cars')
-except Accident as e:
-    print(e)
+except Accident as e: 
+    print(e) 
+finally:   #Even if execptin occured,finally will still execute code
+    print("Code executed")
