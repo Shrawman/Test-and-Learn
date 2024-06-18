@@ -4,8 +4,8 @@ class Accident(Exception):
     
     def print_exception(self):
         print("User defined excption", self.msg)
-        
+
 try:
-    raise MemoryError('Memory Error')
-except MemoryError as e:
+    raise Accident('Crash between two cars')
+except Accident as e:
     print(e)
